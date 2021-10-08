@@ -25,7 +25,7 @@ Select sales.date.year, count(*) From sales.date Group by sales.date.year;
 
 /*-----------------------------------------------------------------------------*/
 
--- Data Exploration
+-- Examining the Dataset
 
 Select count(*) From sales.transactions Where market_code = "Mark001";
 -- number of sales made in Chennai
